@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calandario</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- <div class="container d-flex justify-content-center">
+      <div class="btn">Start</div>
+      <div class="btn">Finish</div>
+      <div class="btn">Refresh</div>
+    </div> -->
+    <div class="jumbotron">
+      <h1 style="font-size: 150px; text-align: center;">ToDo4U!</h1>
+      <h3 id="current-date" style="text-align: center;">Current Time Coming Soon!</h3>
+    </div>
+    <!-- --purple #DC85FD -->
+
+<!--Jumbotron END-->
+    <!--Button #1-->
+    <main id="main" style="justify-content: center;">
+
+      <div id="mainCard"><!--START-->
+        <div
+          id="hour-5"
+          class="row time-block"
+          style="margin: 0; align-items: center;"
+        >
+          <div class="col-sm-1">5am</div>
+          <textarea class="col-sm textBox">I want to: </textarea>
+          <button class="btn add-btn col-sm-1">
+            <span class="material-icons">
+              add_alert
+            </span>
+          </button>
+          <!-------------------Delete Button ------------------------->
+          <button class="btn delete-btn col-sm-1">
+            <span class="material-icons">
+              delete_outline
+            </span>
+          </button>
+          <!------------------------------ Save/Highlight Button ------------------------->
+          <button class="btn save-btn">
+            <span class="material-icons">
+              star_outline
+            </span>
+          </button>
+        </div><!--END-->
+        <div id="mainCard"><!--START-->
+          <div
+            id="hour-5"
+            class="row time-block"
+            style="margin: 0; align-items: center;"
+          >
+            <div class="col-sm-1">6am</div>
+            <textarea class="col-sm textBox">I want to: </textarea>
+            <button class="btn add-btn col-sm-1">
+              <span class="material-icons">
+                add_alert
+              </span>
+            </button>
+            <!-------------------Delete Button ------------------------->
+            <button class="btn delete-btn col-sm-1">
+              <span class="material-icons">
+                delete_outline
+              </span>
+            </button>
+            <!------------------------------ Save/Highlight Button ------------------------->
+            <button class="btn save-btn">
+              <span class="material-icons">
+                star_outline
+              </span>
+            </button>
+          </div><!--END--><div id="mainCard"><!--START-->
+            <div
+              id="hour-5"
+              class="row time-block"
+              style="margin: 0; align-items: center;"
+            >
+              <div class="col-sm-1">7am</div>
+              <textarea class="col-sm textBox">I want to: </textarea>
+              <button class="btn add-btn col-sm-1">
+                <span class="material-icons">
+                  add_alert
+                </span>
+              </button>
+              <!-------------------Delete Button ------------------------->
+              <button class="btn delete-btn col-sm-1">
+                <span class="material-icons">
+                  delete_outline
+                </span>
+              </button>
+              <!------------------------------ Save/Highlight Button ------------------------->
+              <button class="btn save-btn">
+                <span class="material-icons">
+                  star_outline
+                </span>
+              </button>
+            </div><!--END--><div id="mainCard"><!--START-->
+              <div
+                id="hour-5"
+                class="row time-block"
+                style="margin: 0; align-items: center;"
+              >
+                <div class="col-sm-1">8am</div>
+                <textarea class="col-sm textBox">I want to: </textarea>
+                <button class="btn add-btn col-sm-1">
+                  <span class="material-icons">
+                    add_alert
+                  </span>
+                </button>
+                <!-------------------Delete Button ------------------------->
+                <button class="btn delete-btn col-sm-1">
+                  <span class="material-icons">
+                    delete_outline
+                  </span>
+                </button>
+                <!------------------------------ Save/Highlight Button ------------------------->
+                <button class="btn save-btn">
+                  <span class="material-icons">
+                    star_outline
+                  </span>
+                </button>
+              </div><!--END--><div id="mainCard"><!--START-->
+                <div
+                  id="hour-5"
+                  class="row time-block"
+                  style="margin: 0; align-items: center;"
+                >
+                  <div class="col-sm-1">9am</div>
+                  <textarea class="col-sm textBox">I want to: </textarea>
+                  <button class="btn add-btn col-sm-1">
+                    <span class="material-icons">
+                      add_alert
+                    </span>
+                  </button>
+                  <!-------------------Delete Button ------------------------->
+                  <button class="btn delete-btn col-sm-1">
+                    <span class="material-icons">
+                      delete_outline
+                    </span>
+                  </button>
+                  <!------------------------------ Save/Highlight Button ------------------------->
+                  <button class="btn save-btn">
+                    <span class="material-icons">
+                      star_outline
+                    </span>
+                  </button>
+                </div><!--END--><div id="mainCard"><!--START-->
+                  <div
+                    id="hour-5"
+                    class="row time-block"
+                    style="margin: 0; align-items: center;"
+                  >
+                    <div class="col-sm-1">10am</div>
+                    <textarea class="col-sm textBox">I want to: </textarea>
+                    <button class="btn add-btn col-sm-1">
+                      <span class="material-icons">
+                        add_alert
+                      </span>
+                    </button>
+                    <!-------------------Delete Button ------------------------->
+                    <button class="btn delete-btn col-sm-1">
+                      <span class="material-icons">
+                        delete_outline
+                      </span>
+                    </button>
+                    <!------------------------------ Save/Highlight Button ------------------------->
+                    <button class="btn save-btn">
+                      <span class="material-icons">
+                        star_outline
+                      </span>
+                    </button>
+                  </div><!--END-->
+                   <!--Button #1-->
+    
+
+      <div id="mainCard"><!--START-->
+        <div
+          id="hour-5"
+          class="row time-block"
+          style="margin: 0; align-items: center;"
+        >
+          <div class="col-sm-1">11am</div>
+          <textarea class="col-sm textBox">I want to: </textarea>
+          <button class="btn add-btn col-sm-1">
+            <span class="material-icons">
+              add_alert
+            </span>
+          </button>
+          <!-------------------Delete Button ------------------------->
+          <button class="btn delete-btn col-sm-1">
+            <span class="material-icons">
+              delete_outline
+            </span>
+          </button>
+          <!------------------------------ Save/Highlight Button ------------------------->
+          <button class="btn save-btn">
+            <span class="material-icons">
+              star_outline
+            </span>
+          </button>
+        </div><!--END-->
+        <div id="mainCard"><!--START-->
+          <div
+            id="hour-5"
+            class="row time-block"
+            style="margin: 0; align-items: center;"
+          >
+            <div class="col-sm-1">12am</div>
+            <textarea class="col-sm textBox">I want to: </textarea>
+            <button class="btn add-btn col-sm-1">
+              <span class="material-icons">
+                add_alert
+              </span>
+            </button>
+            <!-------------------Delete Button ------------------------->
+            <button class="btn delete-btn col-sm-1">
+              <span class="material-icons">
+                delete_outline
+              </span>
+            </button>
+            <!------------------------------ Save/Highlight Button ------------------------->
+            <button class="btn save-btn">
+              <span class="material-icons">
+                star_outline
+              </span>
+            </button>
+          </div><!--END--><div id="mainCard"><!--START-->
+            <div
+              id="hour-5"
+              class="row time-block"
+              style="margin: 0; align-items: center;"
+            >
+              <div class="col-sm-1">1pm</div>
+              <textarea class="col-sm textBox">I want to: </textarea>
+              <button class="btn add-btn col-sm-1">
+                <span class="material-icons">
+                  add_alert
+                </span>
+              </button>
+              <!-------------------Delete Button ------------------------->
+              <button class="btn delete-btn col-sm-1">
+                <span class="material-icons">
+                  delete_outline
+                </span>
+              </button>
+              <!------------------------------ Save/Highlight Button ------------------------->
+              <button class="btn save-btn">
+                <span class="material-icons">
+                  star_outline
+                </span>
+              </button>
+            </div><!--END--><div id="mainCard"><!--START-->
+              <div
+                id="hour-5"
+                class="row time-block"
+                style="margin: 0; align-items: center;"
+              >
+                <div class="col-sm-1">2pm</div>
+                <textarea class="col-sm textBox">I want to: </textarea>
+                <button class="btn add-btn col-sm-1">
+                  <span class="material-icons">
+                    add_alert
+                  </span>
+                </button>
+                <!-------------------Delete Button ------------------------->
+                <button class="btn delete-btn col-sm-1">
+                  <span class="material-icons">
+                    delete_outline
+                  </span>
+                </button>
+                <!------------------------------ Save/Highlight Button ------------------------->
+                <button class="btn save-btn">
+                  <span class="material-icons">
+                    star_outline
+                  </span>
+                </button>
+              </div><!--END--><div id="mainCard"><!--START-->
+                <div
+                  id="hour-5"
+                  class="row time-block"
+                  style="margin: 0; align-items: center;"
+                >
+                  <div class="col-sm-1">3pm</div>
+                  <textarea class="col-sm textBox">I want to: </textarea>
+                  <button class="btn add-btn col-sm-1">
+                    <span class="material-icons">
+                      add_alert
+                    </span>
+                  </button>
+                  <!-------------------Delete Button ------------------------->
+                  <button class="btn delete-btn col-sm-1">
+                    <span class="material-icons">
+                      delete_outline
+                    </span>
+                  </button>
+                  <!------------------------------ Save/Highlight Button ------------------------->
+                  <button class="btn save-btn">
+                    <span class="material-icons">
+                      star_outline
+                    </span>
+                  </button>
+                </div><!--END-->
+                
+                
+                <div id="mainCard"><!--START-->
+                  <div
+                    id="hour-5"
+                    class="row time-block"
+                    style="margin: 0; align-items: center;"
+                  >
+                    <div class="col-sm-1">4pm</div>
+                    <textarea class="col-sm textBox">I want to: </textarea>
+                    <button class="btn add-btn col-sm-1">
+                      <span class="material-icons">
+                        add_alert
+                      </span>
+                    </button>
+                    <!-------------------Delete Button ------------------------->
+                    <button class="btn delete-btn col-sm-1">
+                      <span class="material-icons">
+                        delete_outline
+                      </span>
+                    </button>
+                    <!------------------------------ Save/Highlight Button ------------------------->
+                    <button class="btn save-btn">
+                      <span class="material-icons">
+                        star_outline
+                      </span>
+                    </button>
+                  </div><!--END-->
+
+                
+                <div id="mainCard"><!--START-->
+                  <div
+                    id="hour-5"
+                    class="row time-block"
+                    style="margin: 0; align-items: center;"
+                  >
+                  <!-- ------------------- -->
+                    <div class="col-sm-1">5pm</div>
+                    <textarea class="col-sm textBox">I want to: </textarea>
+                    <button class="btn add-btn col-sm-1">
+                      <span class="material-icons">
+                        add_alert
+                      </span>
+                    </button>
+                    <!-------------------Delete Button ------------------------->
+                    <button class="btn delete-btn col-sm-1">
+                      <span class="material-icons">
+                        delete_outline
+                      </span>
+                    </button>
+                    <!------------------------------ Save/Highlight Button ------------------------->
+                    <button class="btn save-btn">
+                      <span class="material-icons">
+                        star_outline
+                      </span>
+                    </button>
+                  </div><!--END-->
+                   <!--Button #1-->
+    <main id="main" style="justify-content: center;">
+
+      <div id="mainCard"><!--START-->
+        <div
+          id="hour-6"
+          class="row time-block"
+          style="margin: 0; align-items: center;"
+        >
+          <div class="col-sm-1">6pm</div>
+          <textarea class="col-sm textBox">I want to: </textarea>
+          <button class="btn add-btn col-sm-1">
+            <span class="material-icons">
+              add_alert
+            </span>
+          </button>
+          <!-------------------Delete Button ------------------------->
+          <button class="btn delete-btn col-sm-1">
+            <span class="material-icons">
+              delete_outline
+            </span>
+          </button>
+          <!------------------------------ Save/Highlight Button ------------------------->
+          <button class="btn save-btn">
+            <span class="material-icons">
+              star_outline
+            </span>
+          </button>
+        </div><!--END-->
+        <div id="mainCard"><!--START-->
+          <div
+            id="hour-7"
+            class="row time-block"
+            style="margin: 0; align-items: center;"
+          >
+            <div class="col-sm-1">7pm</div>
+            <textarea class="col-sm textBox">I want to: </textarea>
+            <button class="btn add-btn col-sm-1">
+              <span class="material-icons">
+                add_alert
+              </span>
+            </button>
+            <!-------------------Delete Button ------------------------->
+            <button class="btn delete-btn col-sm-1">
+              <span class="material-icons">
+                delete_outline
+              </span>
+            </button>
+            <!------------------------------ Save/Highlight Button ------------------------->
+            <button class="btn save-btn">
+              <span class="material-icons">
+                star_outline
+              </span>
+            </button>
+          </div><!--END--><div id="mainCard"><!--START-->
+            <div
+              id="hour-8"
+              class="row time-block"
+              style="margin: 0; align-items: center;"
+            >
+              <div class="col-sm-1">8pm</div>
+              <textarea class="col-sm textBox">I want to: </textarea>
+              <button class="btn add-btn col-sm-1">
+                <span class="material-icons">
+                  add_alert
+                </span>
+              </button>
+              <!-------------------Delete Button ------------------------->
+              <button class="btn delete-btn col-sm-1">
+                <span class="material-icons">
+                  delete_outline
+                </span>
+              </button>
+              <!------------------------------ Save/Highlight Button ------------------------->
+              <button class="btn save-btn">
+                <span class="material-icons">
+                  star_outline
+                </span>
+              </button>
+            </div><!--END--><div id="mainCard"><!--START-->
+              <div
+                id="hour-9"
+                class="row time-block"
+                style="margin: 0; align-items: center;"
+              >
+                <div class="col-sm-1">9pm</div>
+                <textarea class="col-sm textBox">I want to: </textarea>
+                <button class="btn add-btn col-sm-1">
+                  <span class="material-icons">
+                    add_alert
+                  </span>
+                </button>
+                <!-------------------Delete Button ------------------------->
+                <button class="btn delete-btn col-sm-1">
+                  <span class="material-icons">
+                    delete_outline
+                  </span>
+                </button>
+                <!------------------------------ Save/Highlight Button ------------------------->
+                <button class="btn save-btn">
+                  <span class="material-icons">
+                    star_outline
+                  </span>
+                </button>
+              </div><!--END--><div id="mainCard"><!--START-->
+                <div
+                  id="hour-10"
+                  class="row time-block"
+                  style="margin: 0; align-items: center;"
+                >
+                  <div class="col-sm-1">10pm</div>
+                  <textarea class="col-sm textBox">I want to: </textarea>
+                  <button class="btn add-btn col-sm-1">
+                    <span class="material-icons">
+                      add_alert
+                    </span>
+                  </button>
+                  <!-------------------Delete Button ------------------------->
+                  <button class="btn delete-btn col-sm-1">
+                    <span class="material-icons">
+                      delete_outline
+                    </span>
+                  </button>
+                  <!------------------------------ Save/Highlight Button ------------------------->
+                  <button class="btn save-btn">
+                    <span class="material-icons">
+                      star_outline
+                    </span>
+                  </button>
+                </div><!--END--><div id="mainCard"><!--START-->
+                  <div
+                    id="hour-11"
+                    class="row time-block"
+                    style="margin: 0; align-items: center;"
+                  >
+                    <div class="col-sm-1">11pm</div>
+                    <textarea class="col-sm textBox">I want to: </textarea>
+                    <button class="btn add-btn col-sm-1">
+                      <span class="material-icons">
+                        add_alert
+                      </span>
+                    </button>
+                    <!-------------------Delete Button ------------------------->
+                    <button class="btn delete-btn col-sm-1">
+                      <span class="material-icons">
+                        delete_outline
+                      </span>
+                    </button>
+                    <!------------------------------ Save/Highlight Button ------------------------->
+                    <button class="btn save-btn">
+                      <span class="material-icons">
+                        star_outline
+                      </span>
+                    </button>
+                  </div><!--END-->
+                  <div id="mainCard"><!--START-->
+                    <div
+                      id="hour-12"
+                      class="row time-block"
+                      style="margin: 0; align-items: center;"
+                    >
+                      <div class="col-sm-1">12pm</div>
+                      <textarea class="col-sm textBox">I want to: </textarea>
+                      <button class="btn add-btn col-sm-1">
+                        <span class="material-icons">
+                          add_alert
+                        </span>
+                      </button>
+                      <!-------------------Delete Button ------------------------->
+                      <button class="btn delete-btn col-sm-1">
+                        <span class="material-icons">
+                          delete_outline
+                        </span>
+                      </button>
+                      <!------------------------------ Save/Highlight Button ------------------------->
+                      <button class="btn save-btn">
+                        <span class="material-icons">
+                          star_outline
+                        </span>
+                      </button>
+                    </div><!--END-->
+      
+      </div><!--END OF MAINCARD-->
+
+      
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

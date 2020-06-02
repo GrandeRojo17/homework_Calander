@@ -1,9 +1,0 @@
-ToDo4U is a free to use Calander extension that makes it easy to create,complete, favorite or delete any task.
-IdeaBox coming soon.
-Either delete or fill text area after "I want to:" with what you would like to plan out and the time and activity will be saved.
-adding a description box soon.
-
-I need to ukpdate the appearance and experiment with more.
-This to do list is almost complete I just hae to figure out how to translate the moment.js to the code and add a little more functionality
-  for the buttons
-  *I need to learn how to display the moment.js

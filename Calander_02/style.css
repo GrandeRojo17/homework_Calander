@@ -1,5 +1,3 @@
-
-  
 .jumbotron {
   background-image: linear-gradient(
     120deg,
@@ -20,14 +18,15 @@ h5 {
 #main {
   background-image: linear-gradient(123deg, #f6d365, #fda085);
 }
-#mainCard{ 
-   padding: 5; margin: auto;justify-content: center;
+#mainCard {
+  padding: 5;
+  margin: auto;
+  justify-content: center;
 }
 .timer-icon {
   padding: 0;
   margin: 0;
 }
-
 
 textarea {
   max-width: 100px;
@@ -56,7 +55,6 @@ textarea {
 /*------------------------------- add/delete Button -----------------------------*/
 .btn {
   font-size: 30px;
- 
 }
 .add-btn {
   font-size: 30px;
@@ -64,23 +62,25 @@ textarea {
   background-color: cornsilk;
 }
 .add-btn:hover {
-  background-color: #A6FD85;
+  background-color: #a6fd85;
   opacity: 0.9;
 }
-.delete-btn{ max-width: 50px;
+.delete-btn {
+  max-width: 50px;
   background-color: cornsilk;
 }
 .delete-btn:hover {
   background-color: rgb(255, 59, 59);
   opacity: 0.9;
 }
-.save-btn{max-width: 50px;
-background-color: cornsilk;
+.save-btn {
+  max-width: 50px;
+  background-color: cornsilk;
 }
-.save-btn:hover{
-  background-image:radial-gradient(#f6d365,#DC85FD,purple);
+.save-btn:hover {
+  background-image: radial-gradient(#f6d365, #dc85fd, purple);
   opacity: 0.9;
-  }
+}
 
 /*--------------------   Icons for both online and off.         ---------------------*/
 @font-face {
@@ -116,4 +116,16 @@ background-color: cornsilk;
 
   /* Support for IE. */
   font-feature-settings: "liga";
+}
+.past {
+  background-color: crimson;
+  opacity: 0.8;
+}
+.present {
+  background-color: rgb(207, 220, 20);
+  opacity: 0.8;
+}
+.future {
+  background-color: rgb(20, 220, 30);
+  opacity: 0.8;
 }

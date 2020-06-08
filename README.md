@@ -6,7 +6,7 @@ https://granderojo17.github.io/homework_Calander
 
 #### Description: <p>Using Javascript HTML and CSS I created a way to save a todo list to local storage .</p>
 
-![Main page image](images/ku_bootCamp_HomeWorkPic_todoLIst_01.PNG)
+![Main page image](images/ku_bootCamp_HomeWorkPic_todoList_01.PNG)
 
 # License : mit
 
